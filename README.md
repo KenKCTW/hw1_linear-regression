@@ -12,6 +12,7 @@ $ streamlit run hw1_linear_regression.py
 [Show the result of streamlit](https://hw1linear-regression-kjq6i6vsbqmum7nvseuy92.streamlit.app/)
 
 ChatGDP prompt
+
 how to present linear regression by streamlit
 
 use y=ax+b+c*noise to be input
