@@ -7,4 +7,4 @@ Install the requirements
 
 $ pip install -r requirements.txt
 
-$ streamlit run hw1_linear regression.py
+$ streamlit run hw1_linear_regression.py
