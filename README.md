@@ -13,6 +13,10 @@ $ streamlit run hw1_linear_regression.py
 
 ChatGDP prompt
 how to present linear regression by streamlit
+
 use y=ax+b+c*noise to be input
+
 add slidebar for input
+
 how to show the slidebar on the left side of dashboard
+
