@@ -18,7 +18,7 @@ st.title("Boston Housing Data")
 st.write(boston)
 
 # Extract features and target
-X = boston['LSTAT'].values
+X = boston['DIS'].values
 Y = boston['MEDV'].values
 
 # Scale the features and target
@@ -105,7 +105,7 @@ upper_bound = predicted_trend + 1.96 * std_dev
 trend_fig = go.Figure()
 
 # Add actual values
-trend_fig.add_trace(go.Scatter(x=boston['LSTAT'], y=boston['MEDV'], mode='markers', name='Actual Values', marker=dict(color='blue', opacity=0.6)))
+trend_fig.add_trace(go.Scatter(x=boston['DIS'], y=boston['MEDV'], mode='markers', name='Actual Values', marker=dict(color='blue', opacity=0.6)))
 
 # Add predicted trend
 trend_fig.add_trace(go.Scatter(x=lstat_range, y=predicted_trend, mode='lines', name='Predicted Trend', line=dict(color='red')))
@@ -115,8 +115,8 @@ trend_fig.add_trace(go.Scatter(x=lstat_range, y=lower_bound, mode='lines', name=
 trend_fig.add_trace(go.Scatter(x=lstat_range, y=upper_bound, mode='lines', name='Upper Bound', line=dict(color='lightgray', dash='dash')))
 
 # Update layout
-trend_fig.update_layout(title='Predicted Trend Channel for LSTAT vs MEDV',
-                        xaxis_title='LSTAT',
+trend_fig.update_layout(title='Predicted Trend Channel for DIS vs MEDV',
+                        xaxis_title='DIS',
                         yaxis_title='MEDV')
 
 # Display trend plot in Streamlit
