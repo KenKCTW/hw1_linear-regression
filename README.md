@@ -21,4 +21,4 @@ add slidebar for input
 
 how to show the slidebar on the left side of dashboard
 
-[Hw1-2_Show result](https://hw1-2py-r84d25xcxaefxpsfm8vrag.streamlit.app/)
+[Hw1-2_Show result](https://hw1-2py-mvfkuubpismappxgbagpkrg.streamlit.app/)
